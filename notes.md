@@ -13,4 +13,4 @@
   ```
 3. Nice to know
   + Usual file format is Intel Hex
-  + Checksum is Intel Hex
+  + Checksum is [Intel Hex](https://en.wikipedia.org/wiki/Intel_HEX#Checksum_calculation)
