@@ -14,7 +14,7 @@
 3. Nice to know
   + Usual file format is Intel Hex
   + Checksum is [Intel Hex](https://en.wikipedia.org/wiki/Intel_HEX#Checksum_calculation)
-4. __Extremely__ important to know
+4. __Extremely__ important to know, especially when attempting to analyze assembled .hex files!
   + When working with .ORG
     > Note that the SRAM and EEPROM location counters count bytes whereas the Program memory location counter counts words. Also note that some devices lack SRAM and/or EEPROM.
     >
