@@ -19,3 +19,4 @@
     > Note that the SRAM and EEPROM location counters count bytes whereas the Program memory location counter counts words.
     >
     > &mdash; <cite>AVR Assembler User Guide pdf</cite>
+  + When using online disassembler on .hex files you must disassemble line by line if the first line(s) are shorter than the following ones, and pad missing bytes by zeros, so the following lines are at the proper addresses again.
