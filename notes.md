@@ -20,3 +20,4 @@
     >
     > &mdash; <cite>AVR Assembler User Guide pdf</cite>
   + When using online disassembler on .hex files you must disassemble line by line if the first line(s) are shorter than the following ones, and pad missing bytes by zeros, so the following lines are at the proper addresses again.
+  + The address offsets (== absolute flash addresses in the atmega16 case) in the .hex file are __byte__ addresses whereas mentioned above, the arguments to the .ORG directive is a __word__ address!
