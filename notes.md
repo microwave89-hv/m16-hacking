@@ -16,6 +16,6 @@
   + Checksum is [Intel Hex](https://en.wikipedia.org/wiki/Intel_HEX#Checksum_calculation)
 4. __Extremely__ important to know, especially when attempting to analyze assembled .hex files!
   + When working with .ORG
-    > Note that the SRAM and EEPROM location counters count bytes whereas the Program memory location counter counts words. Also note that some devices lack SRAM and/or EEPROM.
+    > Note that the SRAM and EEPROM location counters count bytes whereas the Program memory location counter counts words.
     >
     > &mdash; <cite>AVR Assembler User Guide pdf</cite>
