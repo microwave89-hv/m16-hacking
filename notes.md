@@ -14,3 +14,8 @@
 3. Nice to know
   + Usual file format is Intel Hex
   + Checksum is [Intel Hex](https://en.wikipedia.org/wiki/Intel_HEX#Checksum_calculation)
+4. __Extremely__ important to know
+  + When working with .ORG
+    > Note that the SRAM and EEPROM location counters count bytes whereas the Program memory location counter counts words. Also note that some devices lack SRAM and/or EEPROM.
+    >
+    > &mdash; <cite>AVR Assembler User Guide pdf</cite>
